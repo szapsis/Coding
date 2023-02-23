@@ -1,3 +1,7 @@
+#The code you provided is a working implementation of a game similar to the popular board game "SOS".
+#It prompts the player to input a coordinate in the form 'S,i,j', where 'S' is the symbol 'S' or 'O',
+#and 'i' and 'j' are the row and column coordinates of the player's choice, respectively. The goal is to make word 'SOS'.
+
 import random
 
 def printt():

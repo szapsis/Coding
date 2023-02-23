@@ -1,3 +1,7 @@
+#This code prompts the user for two integer values "n" and "m",
+#and then creates an "n x m" matrix filled with random integer values between 1 and 100.
+#It then finds the maximum value in the matrix and prints out the value and the indices of the cell(s) containing the maximum value.
+
 import random
 while True:
     try:
