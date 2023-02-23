@@ -1,3 +1,13 @@
+/*
+This is a simple implementation of the classic game "Snake" in C. Here's a brief summary of what the code does:
+
+Defines the size of the game field and initializes the starting position of the snake and the apple.
+Enters a loop that clears the screen, updates the game field based on the current state of the game, and prints the game field and the current length of the snake.
+Gets input from the user to change the direction of the snake.
+Updates the position of the snake based on the input and checks if the snake has collided with a wall or its own tail. If a collision occurs, the game ends.
+If the snake has collided with an apple, the apple is moved to a new random location and the length of the snake is increased.
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
