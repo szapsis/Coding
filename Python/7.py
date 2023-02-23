@@ -1,6 +1,5 @@
 #This program checks whether a given list is a sublist of another list.
 #It takes two arguments: the first is the larger list and the second is the potential sublist.
-
 def foundList (List,subList):
     if len(List) < len(subList):
         return False
