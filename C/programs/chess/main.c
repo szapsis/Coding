@@ -2,7 +2,34 @@
 
 https://www.thesprucecrafts.com/most-common-chess-openings-611517
 
-Keys: Space - change opening, ESC - exit. */
+Keys: Space - change opening, ESC - exit.
+
+The given code is a C program that implements a console-based chessboard with the Most Common Chess Openings.
+
+The fillChess function initializes the chessboard 2D array with the starting position of the chess pieces.
+It takes two parameters: the chess 2D array and two integers i and j. The i and j integers are not used
+in the function and can be removed. The chess pieces are represented by their algebraic notation as follows:
+
+    'r' for black rook
+    'n' for black knight
+    'b' for black bishop
+    'q' for black queen
+    'k' for black king
+    'p' for black pawn
+    'R' for white rook
+    'N' for white knight
+    'B' for white bishop
+    'Q' for white queen
+    'K' for white king
+    'P' for white pawn
+
+The printChess function takes the same chess 2D array and prints the board in the console with the pieces
+in their respective positions. It also adds labels to the rows and columns of the board,
+as well as some special characters to the black and white squares.
+
+The ruyLopez function takes the chess 2D array and modifies it to represent the starting position
+of the Ruy Lopez opening, a popular opening in chess.
+It places the pawns and pieces in the appropriate positions to set up the Ruy Lopez. */
 
 #include <stdio.h>
 #include <stdlib.h>
